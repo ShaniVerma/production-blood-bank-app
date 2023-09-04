@@ -5,7 +5,7 @@ const morgan=require('morgan');
 const cors=require('cors');
 const connectDB = require('./config/db');
 const path=require('path')
-import{fileURLToPath} from 'url';
+import {fileURLToPath} from 'url';
 //dot config
 
 dotenv.config();
@@ -16,7 +16,7 @@ connectDB();
 
 
 const __filename=fileURLToPath(import.meta.url);
-const __dirname=path.driname(__filename);
+const __dirname=path.dirname(__filename);
 // rest oobject
 
 const app=express();
