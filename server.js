@@ -5,7 +5,7 @@ const morgan=require('morgan');
 const cors=require('cors');
 const connectDB = require('./config/db');
 const path=require('path')
-import {fileURLToPath} from 'url';
+const fileURLToPath= require('url');
 //dot config
 
 dotenv.config();
